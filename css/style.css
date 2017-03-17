@@ -1,6 +1,6 @@
 body, html {
    font-family: serif;
-   color: #333;
+   color: lightgray;
    background: black;
 }
 
@@ -21,14 +21,14 @@ header h1 {
    float: left;
 }
 
-article {
+section {
    max-width: 960px;
    padding: 0 10px;
    margin: 0 auto;
    margin-bottom: 20px;  
 }
 
-article h2 { 
+section h2 { 
    margin: 0 auto;
    text-align: center;
    padding-top: 10px;
@@ -40,7 +40,7 @@ article h2 {
    display: none;
 }
 
-article h2:hover {
+section h2:hover {
    cursor: pointer;
    background-color: Rgba(255, 255, 255, 0.3);
    color: black;
