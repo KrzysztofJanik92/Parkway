@@ -5,8 +5,7 @@ function clickEventHandler(event) {
     if (target.is('h2')) {
         content = target.parent().find('.contentBox');
         contentLength = content.text().length;
-        content.slideToggle(contentLength);
-        content.toggleClass('hidden');
+        content.slideToggle(400);
     }
 }
 
