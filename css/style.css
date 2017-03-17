@@ -1,0 +1,52 @@
+body, html {
+   font-family: serif;
+   color: #333;
+   background: black;
+}
+
+header {
+   text-align: center;
+   margin: 40px;
+}
+
+header h1 {
+   background: black;
+   font-family: Bangers, serif;
+   font-size: 42px;
+   color: red;
+}
+
+.halfBox{
+   width: 50%;
+   float: left;
+}
+
+article {
+   max-width: 960px;
+   padding: 0 10px;
+   margin: 0 auto;
+   margin-bottom: 20px;  
+}
+
+article h2 { 
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 16px;
+}
+
+.hidden {         
+   display: none;
+}
+
+article h2:hover {
+   cursor: pointer;
+   background-color: Rgba(255, 255, 255, 0.3);
+   color: black;
+}
+
+#imageBox img{
+   width: 70%;
+   padding: 0px 10px;;
+}
